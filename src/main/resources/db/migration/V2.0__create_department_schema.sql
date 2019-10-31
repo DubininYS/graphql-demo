@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS department (
+    id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name varchar(20)
+) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
